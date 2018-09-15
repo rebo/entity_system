@@ -1,0 +1,12 @@
+cargo-features = ["edition"]
+
+[package]
+name = "entity_system"
+edition = "2018"
+version = "0.1.0"
+authors = ["rebo <rebo@fakeemail.org>"]
+
+[dependencies]
+slotmap = "0.2"
+anymap = { git = "https://github.com/chris-morgan/anymap" }
+lazy_static = "1.1.0"
